@@ -1,0 +1,52 @@
+/**
+ * Basic typography style for copy text
+ */
+body {
+  font-size: 16px;
+  line-height: 20px;
+  font-family: $text-font-stack;
+  background-color: #E6E6E6;
+  color: $color-primary-black;
+  padding: 30px 0;
+}
+
+.page-title {
+  font-size: 30px;
+  line-height: 40px;
+  margin: 0;
+}
+
+.page-lead {
+  display: block;
+  font-size: 18px;
+  line-height: 24px;
+  color: $color-primary-grey;
+  font-style: italic;
+}
+
+.default-title {
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0 0 10px 0;
+}
+
+.default-section {
+  margin: 0 0 30px 0;
+}
+
+.default-lead {
+  display: block;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  color: $color-primary-grey;
+  font-style: italic;
+}
+
+.default-paragraph {
+  padding: 0;
+  margin: 0 0 10px 0;
+
+  &:last-of-type {
+    margin: 0;
+  }
+}
