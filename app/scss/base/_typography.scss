@@ -27,7 +27,7 @@ body {
 .default-title {
   font-size: 20px;
   line-height: 24px;
-  margin: 0 0 10px 0;
+  margin: 0;
 }
 
 .default-section {
@@ -36,15 +36,14 @@ body {
 
 .default-lead {
   display: block;
-  margin-top: -10px;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
   color: $color-primary-grey;
   font-style: italic;
 }
 
 .default-paragraph {
   padding: 0;
-  margin: 0 0 10px 0;
+  margin: 0 0 16px 0;
 
   &:last-of-type {
     margin: 0;

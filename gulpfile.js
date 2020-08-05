@@ -57,7 +57,9 @@ function browsersync() {
 	browserSync.init({
 		server: { baseDir: baseDir + '/' },
 		notify: false,
-		online: online
+    online: online,
+    port: "4040",
+    ui: false,
 	})
 }
 
